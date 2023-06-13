@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+form {
+  width: 400px;
+  margin: auto;
+  background-color: rgb(190, 130, 247);
+  border-radius: 5px;
+}
+
+
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  
+  
+}
+
+th{
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  background-color: violet
+}
+
+label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  margin-left: 20px;
+
+}
+
+button{
+  color:white;
+  background-color:blueviolet;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  margin-top: 5px;
+  margin-left: 46.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+input{
+  border: none;
+  outline: none;
+  margin-top:10px;
+  border-radius: 3px;
+}
+
+
+#cpf{
+  margin-bottom: 10px;
+}
